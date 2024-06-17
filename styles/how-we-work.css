@@ -1,0 +1,37 @@
+section.how-we-work {
+    padding-top: 80px;
+}
+
+.how-we-work-content {
+    background-color: #F5F5F5;
+
+    padding: 30px;
+
+    border-radius: 20px;
+}
+
+.how-we-work-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.work-cards {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-card-title {
+    color:#EF7F1A;
+    font-size: 18px;
+}
+
+.work-card-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.even-card {
+    margin-top: 80px;
+}
+

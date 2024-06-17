@@ -1,0 +1,42 @@
+section.address {
+    padding-top: 80px;
+}
+
+.address-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-title {
+    font-size: 32px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+
+    padding: 40px 100px;
+
+    background-color: #F5F5F5;
+}
+
+.address-info, .phone-info, .email-info {
+    display: flex;
+    column-gap: 5px;
+}
+
+.address-text, .phone-text, .email-text {
+    font-size: 14px;
+}
+
+.address-adress, .address-phone, .address-email {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.address-hr {
+    margin-top: 30px;
+    opacity: 60%;
+}

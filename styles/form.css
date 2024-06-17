@@ -1,0 +1,87 @@
+section.form {
+    padding-top: 80px;
+}
+
+.form-content {
+    background-image: url("../imgs/bg/form-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding: 80px 50px;
+
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.form-title {
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.form-subtitle {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+
+form#form {
+    display: flex;
+    column-gap: 15px;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.submit-form-btn {
+    background-color: #EF7F1A;
+    color: #fff;
+    font-weight: 600;
+
+    border: 2px solid #EF7F1A;
+
+    padding: 10px 45px;
+    border-radius: 100px;
+}
+
+
+.submit-call {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+
+    flex-direction: row;
+}
+
+.form-call {
+    display: flex;
+    align-items: center;
+
+    column-gap: 10px;
+}
+
+.or-number {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 5px;
+}
+
+.or-number p {
+    font-size: 12px;
+    color: #D2D2D2;
+}
+
+.or-number h6 {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fff;
+}

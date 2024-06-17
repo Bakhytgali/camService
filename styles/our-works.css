@@ -1,0 +1,75 @@
+section.our-works {
+    padding-top: 80px;
+}
+
+.works-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.works-subtitle {
+    text-align: center;
+    color: #666666;
+    padding-top: 10px;
+
+    font-size: 18px;
+}
+
+.works-cards {
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.works-cards::before {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    align-self: center;
+
+    content: url("../imgs/icons/vector-left.png");
+
+    cursor: pointer;
+}
+
+.works-cards::after {
+    height: 30px;
+    width: 30px;
+    padding-left: 10px;
+    align-self: center;
+
+    content: url("../imgs/icons/vector-right.png");
+    cursor: pointer;
+}
+
+.work-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.example-card-title {
+    padding-top: 15px;
+
+    font-size: 18px;
+}
+
+.example-card-subtitle {
+    padding-top: 10px;
+
+    color: #666666;
+}
+
+.scroll-menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 30px;
+}
+
+.scroll-menu {
+    width: 40px;
+}

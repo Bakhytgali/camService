@@ -1,0 +1,32 @@
+section.whyus {
+    padding-top: 80px;
+}
+
+.reasons {
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.reason-title {
+    font-size: 32px;
+
+    color: #EF7F1A;
+}
+
+.reason-subtitle {
+    padding-top: 10px;
+    color: #666666;
+    font-size: 18px;
+}
