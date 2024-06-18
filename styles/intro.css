@@ -1,5 +1,5 @@
 section.intro {
-    position: relative; /* Ensure the pseudo-element is positioned relative to the intro section */
+    position: relative;
     padding: 150px 0;
 }
 

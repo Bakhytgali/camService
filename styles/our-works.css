@@ -54,3 +54,19 @@ section.our-works {
 .scroll-menu {
     width: 40px;
 }
+
+@media (max-width: 1250px){
+    .works-cards img{
+        width: 70%;
+    }
+}
+
+@media (max-width: 670px) {
+    .works-cards {
+        flex-direction: column;
+    }
+
+    .work-card {
+        padding-top: 40px;
+    }
+}
