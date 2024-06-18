@@ -4,8 +4,7 @@ section.about-us {
 
 .about-us-content {
     display: flex;
-
-    justify-content: space-between;
+    flex: 0 0 50%;
     align-items: center;
 
     column-gap: 100px;

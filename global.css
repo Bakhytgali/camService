@@ -14,7 +14,9 @@ body {
 }
 
 .main-container {
-    padding: 0 100px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 a {
