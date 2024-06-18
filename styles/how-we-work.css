@@ -35,3 +35,31 @@ section.how-we-work {
     margin-top: 80px;
 }
 
+@media (max-width: 1054px) {
+    img[isVector="true"] {
+        display: none;
+    }
+
+    .even-card {
+        margin-top: 0;
+    }
+
+    .work-cards {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .work-cards {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+}
+

@@ -30,3 +30,14 @@ section.whyus {
     color: #666666;
     font-size: 18px;
 }
+
+@media (max-width: 1060px) {
+    .reasons {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .reasons img {
+        transform: rotate(90deg);
+    }
+}
