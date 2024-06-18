@@ -93,8 +93,7 @@ a.nav-item-link:hover {
     color: #EF7F1A;
 }
 
-
-.mobile-menu {
+nav.mobile-menu {
     display: none;
     position: fixed;
     height: 100vh;
