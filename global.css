@@ -49,3 +49,16 @@ ul {
 .next-arrow {
     right: -50px;
 }
+
+@media (max-width: 1024px) {
+    .nav-arrow {
+        display: none;
+    }
+
+    .main-container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: relative;
+    }
+}
