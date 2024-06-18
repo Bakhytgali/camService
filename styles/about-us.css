@@ -21,3 +21,24 @@ section.about-us {
     
     line-height: 1.5;
 }
+
+@media(max-width: 1200px) {
+    .about-us-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-us-img {
+        display: none;
+    }
+
+    .about-us-info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+}
