@@ -135,3 +135,7 @@ nav.intro-icons {
 
     row-gap: 5px;
 }
+
+.intro-socials img {
+    height: 50px;
+}

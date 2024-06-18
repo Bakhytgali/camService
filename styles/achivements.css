@@ -9,11 +9,16 @@ section.achivements {
 
 .achivement-list {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     padding-top: 20px;
 }
 
-.achivement-list img{
-    height: 250px;
+.achivement-list img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
 }
 

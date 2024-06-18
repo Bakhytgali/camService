@@ -1,0 +1,31 @@
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .review-item {
+        width: calc(50% - 40px); /* Adjust width for two columns */
+    }
+}
+
+@media (max-width: 768px) {
+    .review-item {
+        width: calc(100% - 40px); /* Adjust width for one column */
+    }
+    .reviews-subtitle {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .reviews-title {
+        font-size: 28px;
+    }
+    .reviews-subtitle {
+        font-size: 16px;
+    }
+    .review-item-title {
+        font-size: 20px;
+    }
+    .review-item-subtitle {
+        font-size: 14px;
+    }
+}

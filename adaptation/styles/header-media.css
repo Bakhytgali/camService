@@ -1,0 +1,49 @@
+@media (max-width: 1240px) {
+    .nav-menu, .order-call, .nav-email {
+        display: none;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .burger-menu {
+        display: flex;
+        background-color: #EF7F1A ;
+        border-radius: 25%;
+        align-items: center;
+        justify-items: center;
+
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo img {
+        height: 35px;
+    }
+
+    .burger-menu-structure {
+        padding: 8px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .burger-menu-structure span {
+        background-color: #212121;
+        height: 3px;
+        width: 23px;
+
+        border-radius: 5%;
+    }
+}
+
+.mobile-call-btn {
+    border:none;
+}
+
+.mobile-call-btn:hover {
+    border:none;
+}
