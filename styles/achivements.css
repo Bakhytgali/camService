@@ -10,33 +10,8 @@ section.achivements {
 .achivement-list {
     display: flex;
     justify-content: space-between;
-
-
     padding-top: 20px;
 }
-
-.achivement-list::before {
-    height: 30px;
-    width: 30px;
-    padding-right: 20px;
-    align-self: center;
-
-    content: url("../imgs/icons/vector-left.png");
-
-    cursor: pointer;
-}
-
-.achivement-list::after {
-    height: 30px;
-    width: 30px;
-    padding-left: 10px;
-    align-self: center;
-
-    content: url("../imgs/icons/vector-right.png");
-    cursor: pointer;
-}
-
-
 
 .achivement-list img{
     height: 250px;

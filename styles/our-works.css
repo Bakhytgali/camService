@@ -1,5 +1,6 @@
 section.our-works {
     padding-top: 80px;
+    position: relative;
 }
 
 .works-title {
@@ -11,7 +12,6 @@ section.our-works {
     text-align: center;
     color: #666666;
     padding-top: 10px;
-
     font-size: 18px;
 }
 
@@ -20,55 +20,34 @@ section.our-works {
     display: flex;
     justify-content: space-between;
 }
-
-.works-cards::before {
-    height: 30px;
-    width: 30px;
-    padding-right: 20px;
-    align-self: center;
-
-    content: url("../imgs/icons/vector-left.png");
-
-    cursor: pointer;
-}
-
-.works-cards::after {
-    height: 30px;
-    width: 30px;
-    padding-left: 10px;
-    align-self: center;
-
-    content: url("../imgs/icons/vector-right.png");
-    cursor: pointer;
-}
-
 .work-card {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .work-card img {
-    width: 95%;
+    width: auto;
+    max-width: 100%;
 }
 
 .example-card-title {
     padding-top: 15px;
-
     font-size: 18px;
+    text-align: center;
 }
 
 .example-card-subtitle {
     padding-top: 10px;
-
     color: #666666;
+    text-align: center;
 }
 
 .scroll-menu-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding-top: 30px;
 }
 

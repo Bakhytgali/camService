@@ -11,54 +11,39 @@ section.reviews {
     text-align: center;
     font-size: 18px;
     color: #666666;
-
     font-weight: 600;
-
     padding-top: 20px;
 }
 
 .reviews-list {
     padding-top: 40px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-
     column-gap: 40px;
 }
 
-.reviews-list::before {
-    height: 30px;
-    width: 30px;
-    padding-right: 20px;
-    align-self: center;
-
-    content: url("../imgs/icons/vector-left.png");
-
-    cursor: pointer;
-}
-
-.reviews-list::after {
-    height: 30px;
-    width: 30px;
-    padding-left: 10px;
-    align-self: center;
-
-    content: url("../imgs/icons/vector-right.png");
-    cursor: pointer;
-}
-
 .review-item {
-    padding: 0 20px;
-
+    position: relative;
+    padding: 20px;
     background-color: #F5F5F5;
     border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
 }
 
 .review-comma {
+    position: absolute;
+    top: -20px;
+    left: 20px;
     background-color: #fff;
-    border-radius: 20px;
-
+    border-radius: 50%;
     padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .review-item-title {
@@ -68,16 +53,12 @@ section.reviews {
 
 .review-item-subtitle {
     padding-top: 10px;
-
     line-height: 1.5;
-
     color: #444444;
 }
 
 .review-item-date {
     padding-top: 20px;
-
     color: #444444;
-
     padding-bottom: 30px;
 }
