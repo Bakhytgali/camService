@@ -7,6 +7,10 @@
     font-family: "Exo 2", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100vw;
 
@@ -27,3 +31,4 @@ a {
 ul {
     list-style: none;
 }
+

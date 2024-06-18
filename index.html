@@ -121,11 +121,11 @@
 
                     <div class="intro-buttons">
                         
-                        <a href="#" class="leave-order">
+                        <button type="button" href="#" class="leave-order leave-order-module">
                             ОСТАВИТЬ ЗАЯВКУ
-                        </a>
+                        </button>
 
-                        <a href="#" class="check-service">
+                        <a href="#services" class="check-service">
                             ПОСМОТРЕТЬ УСЛУГИ
                         </a>
 
@@ -135,8 +135,13 @@
                         <img src="./imgs/icons/navigate.png" alt="">
 
                         <div class="intro-socials">
-                            <img src="./imgs/icons/telegram.png" alt="">
-                            <img src="./imgs/icons/whatsapp.png" alt="">
+                            <a href="#">
+                                <img src="./imgs/icons/telegram.png" alt="">
+                            </a>
+
+                            <a href="#">
+                                <img src="./imgs/icons/whatsapp.png" alt="">
+                            </a>
                         </div>
                     </nav>
 
@@ -144,9 +149,47 @@
 
             </div>
 
+            <div class="form-modal">
+                <div class="main-container">
+                    <div class="intro-form-content form-content">
+
+                        <img src="./imgs/icons/exit_module.png" alt="" class="exit-modal">
+                        
+                        <h3 class="form-title">
+                            Получить консультацию <br> специалиста
+                        </h3>
+
+                        <p class="form-subtitle">
+                            Оставьте заявку, наш менеджер свяжется с Вами в течение <br> часа и проконсультирует Вас по всем вопросам.
+                        </p>
+
+                        <form action="" id="form-intro">
+                            <input type="text" name="name" id="name-intro-form" placeholder="Имя">
+                            <input type="text" name="number" id="number-intro-form" placeholder="Номер Телефона">
+                        </form>
+
+                        <div class="submit-or-call">
+                            <button type="submit" class="submit-form-btn">
+                                ОТПРАВИТЬ
+                            </button>
+
+                            <div class="form-call">
+                                <img src="./imgs/icons/call-icon.png" alt="">
+
+                                <div class="or-number">
+                                    <p>или звоните по номеру </p>
+                                    <h6>+7 (777) 777‒77‒77</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
         </section>
 
-        
         <section class="services" id="services">
         
             <div class="main-container">
@@ -329,7 +372,7 @@
                         <input type="text" name="number" id="number" placeholder="Номер Телефона">
                     </form>
 
-                    <div class="submit-call">
+                    <div class="submit-or-call">
                         <button type="submit" class="submit-form-btn">
                             ОТПРАВИТЬ
                         </button>
@@ -935,5 +978,7 @@
 
     </main>
 
+
+    <script src="./scripts/module.js"></script>
 </body>
 </html>

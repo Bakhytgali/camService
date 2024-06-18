@@ -3,6 +3,9 @@ section.form {
 }
 
 .form-content {
+    border-radius: 20px;
+    height: 533px;
+
     background-image: url("../imgs/bg/form-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,6 +14,7 @@ section.form {
 
     display: flex;
     align-items: baseline;
+    justify-content: center;
     flex-direction: column;
     row-gap: 30px;
 }
@@ -53,7 +57,7 @@ input[type="text"]:focus {
 }
 
 
-.submit-call {
+.submit-or-call {
     display: flex;
     align-items: center;
     column-gap: 15px;
