@@ -9,5 +9,13 @@ const reviewsSwiper = new Swiper('.reviews-swiper', {
         nextEl: '.reviews-swiper-button-next',
         prevEl: '.reviews-swiper-button-prev',
     },
-    slidesPerView: 3
+    slidesPerView: 1,
+    breakpoints: {
+        800: {
+            slidesPerView: 2
+        },
+        1200: {
+            slidesPerView: 3
+        }
+    }
 });

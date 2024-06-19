@@ -10,5 +10,13 @@ const swiper = new Swiper('.works-swiper', {
         nextEl: '.works-swiper-button-next',
         prevEl: '.works-swiper-button-prev',
     },
-    slidesPerView: 3
+    slidesPerView: 1,
+    breakpoints: {
+        650: {
+            slidesPerView: 2
+        },
+        950: {
+            slidesPerView: 3
+        }
+    }
 });

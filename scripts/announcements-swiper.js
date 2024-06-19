@@ -9,16 +9,16 @@ const announcement = new Swiper('.announcements-swiper', {
         nextEl: '.announcement-swiper-button-next',
         prevEl: '.announcement-swiper-button-prev',
     },
-    slidesPerView: 4,
+    slidesPerView: 1,
     breakpoints: {
-        1024: {
+        1300: {
+            slidesPerView: 4
+        },
+        940: {
             slidesPerView: 3
         },
-        760: {
+        640: {
             slidesPerView: 2
-        },
-        480: {
-            slidesPerView: 1
         }
     }
 });

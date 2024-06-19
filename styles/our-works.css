@@ -61,11 +61,7 @@ section.our-works {
     }
 }
 
-@media (max-width: 670px) {
-    .works-cards {
-        flex-direction: column;
-    }
-
+@media (max-width: 650px) {
     .work-card {
         padding-top: 40px;
     }
