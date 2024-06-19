@@ -26,20 +26,15 @@ section.announcements {
 }
 
 .announcement-card {
-    flex: 1;
-    min-width: 250px;
-    max-width: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    box-sizing: border-box;
     text-align: center;
 }
 
 .announcement-card img {
-    width: 100%;
-    height: auto;
+    width: 80%;
 }
 
 .announcement-card-title {
