@@ -1,13 +1,13 @@
-/* Responsive Styles */
+
 @media (max-width: 1200px) {
     .review-item {
-        width: calc(50% - 40px); /* Adjust width for two columns */
+        width: calc(50% - 40px);
     }
 }
 
 @media (max-width: 768px) {
     .review-item {
-        width: calc(100% - 40px); /* Adjust width for one column */
+        width: calc(100% - 40px);
     }
     .reviews-subtitle {
         padding-left: 20px;

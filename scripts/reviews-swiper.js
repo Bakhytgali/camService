@@ -14,7 +14,7 @@ const reviewsSwiper = new Swiper('.reviews-swiper', {
         800: {
             slidesPerView: 2
         },
-        1200: {
+        1300: {
             slidesPerView: 3
         }
     }

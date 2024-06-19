@@ -54,6 +54,14 @@ input[type="text"]:focus {
 
     padding: 10px 45px;
     border-radius: 100px;
+
+    transition: .2s linear;
+
+    cursor: pointer;
+}
+
+.submit-form-btn:hover {
+    background-color: transparent;
 }
 
 
@@ -88,6 +96,11 @@ input[type="text"]:focus {
     font-size: 14px;
     text-decoration: underline;
     color: #fff;
+    transition: .2s linear;
+}
+
+.or-number h6:hover {
+    color: #EF7F1A;
 }
 
 @media (max-width: 950px) {
