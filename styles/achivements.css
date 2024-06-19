@@ -1,21 +1,27 @@
-section.achivements {
-    padding-top: 80px;
+section.achievements {
+    padding-top: 90px;
 }
 
-.achivements-title {
+.achievements-title {
     font-size: 32px;
     text-align: center;
 }
 
-.achivement-list {
+.achievement-card {
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+}
+
+.achievements-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
     padding-top: 20px;
 }
 
-.achivement-list img {
+.achievement-list img {
     width: 100%;
     max-width: 200px;
     height: auto;

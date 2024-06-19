@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/intro.css">
@@ -592,69 +597,99 @@
 
         <section class="our-works">
             <div class="main-container">
-                <img src="./imgs/icons/vector-left.png" alt="Previous" class="nav-arrow prev-arrow">
-                <img src="./imgs/icons/vector-right.png" alt="Next" class="nav-arrow next-arrow">
-
                 <div class="swiper-container">
                     <div class="works-content">
                         <h2 class="service-title works-title">НАШИ РАБОТЫ</h2>
                         <p class="works-subtitle">Объекты, на которых наша компания проводила работы</p>
-                        <div class="works-cards">
-                            <div class="work-card">
-                                <img src="./imgs/cards/example1.jpg" alt="">
-                                <h4 class="example-card-title">Название объекта</h4>
-                                <p class="example-card-subtitle">
-                                    Проделанная работа, мини описание. <br> Необходимы данные.
-                                </p>
-                            </div>
-                            <div class="work-card">
-                                <img src="./imgs/cards/example2.jpg" alt="">
-                                <h4 class="example-card-title">Название объекта</h4>
-                                <p class="example-card-subtitle">
-                                    Проделанная работа, мини описание. <br> Необходимы данные.
-                                </p>
-                            </div>
-                            <div class="work-card">
-                                <img src="./imgs/cards/example3.jpg" alt="">
-                                <h4 class="example-card-title">Название объекта</h4>
-                                <p class="example-card-subtitle">
-                                    Проделанная работа, мини описание. <br> Необходимы данные.
-                                </p>
+                        <div class="swiper works-swiper">
+                            <div class="works-cards swiper-wrapper">
+                                <div class="work-card swiper-slide">
+                                    <img src="./imgs/cards/example1.jpg" alt="">
+                                    <h4 class="example-card-title">Название объекта</h4>
+                                    <p class="example-card-subtitle">
+                                        Проделанная работа, мини описание. <br> Необходимы данные.
+                                    </p>
+                                </div>
+                                <div class="work-card swiper-slide">
+                                    <img src="./imgs/cards/example2.jpg" alt="">
+                                    <h4 class="example-card-title">Название объекта</h4>
+                                    <p class="example-card-subtitle">
+                                        Проделанная работа, мини описание. <br> Необходимы данные.
+                                    </p>
+                                </div>
+                                <div class="work-card swiper-slide">
+                                    <img src="./imgs/cards/example3.jpg" alt="">
+                                    <h4 class="example-card-title">Название объекта</h4>
+                                    <p class="example-card-subtitle">
+                                        Проделанная работа, мини описание. <br> Необходимы данные.
+                                    </p>
+                                </div>
+                                <div class="work-card swiper-slide">
+                                    <img src="./imgs/cards/example3.jpg" alt="">
+                                    <h4 class="example-card-title">Название объекта</h4>
+                                    <p class="example-card-subtitle">
+                                        Проделанная работа, мини описание. <br> Необходимы данные.
+                                    </p>
+                                </div>
+                                <div class="work-card swiper-slide">
+                                    <img src="./imgs/cards/example3.jpg" alt="">
+                                    <h4 class="example-card-title">Название объекта</h4>
+                                    <p class="example-card-subtitle">
+                                        Проделанная работа, мини описание. <br> Необходимы данные.
+                                    </p>
+                                </div>
+                                <div class="work-card swiper-slide">
+                                    <img src="./imgs/cards/example3.jpg" alt="">
+                                    <h4 class="example-card-title">Название объекта</h4>
+                                    <p class="example-card-subtitle">
+                                        Проделанная работа, мини описание. <br> Необходимы данные.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="scroll-menu-icon">
-                            <img src="./imgs/icons/scroll-menu.png" alt="" class="scroll-menu">
+                        <div class="works-swiper-pagination swiper-pagination">
                         </div>
+                        <img src="./imgs/icons/vector-right.png" class="swiper-button-next works-swiper-button-next" alt="">
+                        <img src="./imgs/icons/vector-left.png" class="swiper-button-prev works-swiper-button-prev" alt="">
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <section class="achivements" id="achivements">
+        <section class="achievements" id="achievements">
             <div class="main-container">
-                <img src="./imgs/icons/vector-left.png" alt="Previous" class="nav-arrow prev-arrow">
-                <img src="./imgs/icons/vector-right.png" alt="Next" class="nav-arrow next-arrow">
-
                 <div class="swiper-container">
-                    <div class="achivements-content">
-                        <h2 class="achivements-title">СЕРТИФИКАТЫ И ЛИЦЕНЗИИ</h2>
-                        <div class="achivement-list">
-                            <img src="./imgs/cards/certificate.jpg" alt="" certificate-index="1">
-                            <img src="./imgs/cards/certificate.jpg" alt="" certificate-index="2">
-                            <img src="./imgs/cards/certificate.jpg" alt="" certificate-index="3">
-                            <img src="./imgs/cards/certificate.jpg" alt="" certificate-index="4">
-                            <img src="./imgs/cards/certificate.jpg" alt="" certificate-index="5">
-                            <img src="./imgs/cards/certificate.jpg" alt="" certificate-index="6">
+                    <div class="achievements-content">
+                        <h2 class="achievements-title">СЕРТИФИКАТЫ И ЛИЦЕНЗИИ</h2>
+                        <div class="swiper achievements-swiper">
+                            <div class="achievements-cards swiper-wrapper">
+                                <div class="achievement-card swiper-slide">
+                                    <img src="./imgs/cards/certificate.jpg" alt="">
+                                </div>
+                                <div class="achievement-card swiper-slide">
+                                    <img src="./imgs/cards/certificate.jpg" alt="">
+                                </div>
+                                <div class="achievement-card swiper-slide">
+                                    <img src="./imgs/cards/certificate.jpg" alt="">
+                                </div>
+                                <div class="achievement-card swiper-slide">
+                                    <img src="./imgs/cards/certificate.jpg" alt="">
+                                </div>
+                                <div class="achievement-card swiper-slide">
+                                    <img src="./imgs/cards/certificate.jpg" alt="">
+                                </div>
+                                <div class="achievement-card swiper-slide">
+                                    <img src="./imgs/cards/certificate.jpg" alt="">
+                                </div>
+                            </div>
                         </div>
-                        <div class="scroll-menu-icon">
-                            <img src="./imgs/icons/scroll-menu.png" alt="" class="scroll-menu">
-                        </div>
+                        <div class="swiper-pagination achievement-swiper-pagination"></div>
+                        <img src="./imgs/icons/vector-right.png" class="swiper-button-next achievement-swiper-button-next" alt="">
+                        <img src="./imgs/icons/vector-left.png" class="swiper-button-prev achievement-swiper-button-prev" alt="">
                     </div>
                 </div>
             </div>
         </section>
-
 
         <section class="about-us" id="about-us">
 
@@ -952,5 +987,8 @@
     <script src="./scripts/module.js"></script>
     <script src="./adaptation/burger-menu.js"></script>
     <script src="./adaptation/reviews.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/swiper.js"></script>
+    <script src="scripts/achievements-swiper.js"></script>
 </body>
 </html>

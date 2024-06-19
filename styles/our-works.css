@@ -55,7 +55,7 @@ section.our-works {
     width: 40px;
 }
 
-@media (max-width: 1250px){
+@media (max-width: 1400px){
     .works-cards img{
         width: 70%;
     }
