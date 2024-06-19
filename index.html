@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="./styles/announcements.css">
     <link rel="stylesheet" href="./styles/address.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./adaptation/styles/burger-menu.css">
     <link rel="stylesheet" href="./adaptation/styles/header-media.css">
     <link rel="stylesheet" href="./adaptation/styles/intro-media.css">
     <link rel="stylesheet" href="./adaptation/styles/achievements-media.css">
@@ -36,136 +35,67 @@
 </head>
 <body>
 
-    <header class="header">
-
-        <nav class="mobile-menu">
-
-            <div class="exit-mobile-menu">
-                <div class="exit-menu-structure">
-                    <span exit="left"></span>
-                    <span exit="right"></span>
-                </div>
+<header class="header">
+    <nav class="mobile-menu">
+        <div class="exit-mobile-menu">
+            <div class="exit-menu-structure">
+                <span class="exit" id="exit-left"></span>
+                <span class="exit" id="exit-right"></span>
             </div>
-
-            <img src="./imgs/logo/header-logo.png" alt="" class="mobile-nav-logo">
-
-            <ul class="nav-menu mobile-nav-menu">
-        
-                <a href="#about-us" class="nav-item-link mobile-nav-item-link">
-                    <li class="nav-item">О НАС</li>
-                </a>
-
-                <a href="#services" class="nav-item-link mobile-nav-item-link">
-                    <li class="nav-item">УСЛУГИ</li>
-                </a>
-
-                <a href="#achievements" class="nav-item-link mobile-nav-item-link">
-                    <li class="nav-item">СЕРТИФИКАТЫ</li>
-                </a>
-
-                <a href="#reviews" class="nav-item-link mobile-nav-item-link">
-                    <li class="nav-item">ОТЗЫВЫ</li>
-                </a>
-
-                <a href="#announcements" class="nav-item-link mobile-nav-item-link">
-                    <li class="nav-item">ОБЪЯВЛЕНИЯ</li>
-                </a>
-
-                <a href="#address" class="nav-item-link mobile-nav-item-link">
-                    <li class="nav-item">КОНТАКТЫ</li>
-                </a>
-
-            </ul>
-
-            <button type="button" class="call-btn mobile-call-btn">
-                Заказать звонок
-            </button>
-
-        </nav>
-
-        <div class="main-container">
-
-            <div class="header-content">
-                <div class="logo">
-
-                    <img src="./imgs/logo/header-logo.png" alt="">
-
-                </div>
-
-                <nav class="nav-bar">
-
-                    <div class="main-nav">
-                        <div class="nav-email">
-                            <img src="./imgs/icons/email.svg" alt="email-vector">
-
-                            <a href="mailto:info-example@mail.ru" id="email">
-                                info-example@mail.ru
-                            </a>
-                        </div>
-
-                        <ul class="nav-menu">
-
-                            <a href="#about-us" data-url-change="about-us" class="nav-item-link">
-                                <li class="nav-item">О НАС</li>
-                            </a>
-
-                            <a href="#services" class="nav-item-link" data-url-change="/services">
-                                <li class="nav-item">УСЛУГИ</li>
-                            </a>
-
-                            <a href="#achievements" class="nav-item-link" data-url-change="/achievements">
-                                <li class="nav-item">СЕРТИФИКАТЫ</li>
-                            </a>
-
-                            <a href="#reviews" class="nav-item-link" data-url-change="/reviews">
-                                <li class="nav-item">ОТЗЫВЫ</li>
-                            </a>
-
-                            <a href="#announcements" class="nav-item-link" data-url-change="/announcements">
-                                <li class="nav-item">ОБЪЯВЛЕНИЯ</li>
-                            </a>
-
-                            <a href="#address" class="nav-item-link" data-url-change="/contacts">
-                                <li class="nav-item">КОНТАКТЫ</li>
-                            </a>
-
-                        </ul>
-
-                        <div class="burger-menu">
-                            <div class="burger-menu-structure">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="order-call">
-
-                        <div class="call-nav">
-                            <div class="phone-icon">
-                                <img src="./imgs/icons/phone.svg" alt="">
-                            </div>
-
-                            <a href="tel:+77777777777" class="phone-number" id="phone">
-                                +7 (777) 777‒77‒77
-                            </a>
-                        </div>
-
-                        <button type="button" class="call-btn">
-                            Заказать звонок
-                        </button>
-
-                    </div>
-
-                </nav>
-            </div>
-
         </div>
+        <img src="./imgs/logo/header-logo.png" alt="" class="mobile-nav-logo">
+        <ul class="nav-menu mobile-nav-menu">
+            <li class="nav-item"><a href="#about-us" class="nav-item-link mobile-nav-item-link">О НАС</a></li>
+            <li class="nav-item"><a href="#services" class="nav-item-link mobile-nav-item-link">УСЛУГИ</a></li>
+            <li class="nav-item"><a href="#achievements" class="nav-item-link mobile-nav-item-link">СЕРТИФИКАТЫ</a></li>
+            <li class="nav-item"><a href="#reviews" class="nav-item-link mobile-nav-item-link">ОТЗЫВЫ</a></li>
+            <li class="nav-item"><a href="#announcements" class="nav-item-link mobile-nav-item-link">ОБЪЯВЛЕНИЯ</a></li>
+            <li class="nav-item"><a href="#address" class="nav-item-link mobile-nav-item-link">КОНТАКТЫ</a></li>
+        </ul>
+        <button type="button" class="call-btn mobile-call-btn">Заказать звонок</button>
+    </nav>
+    <div class="main-container">
+        <div class="header-content">
+            <div class="logo">
+                <img src="./imgs/logo/header-logo.png" alt="">
+            </div>
+            <nav class="nav-bar">
+                <div class="main-nav">
+                    <div class="nav-email">
+                        <img src="./imgs/icons/email.svg" alt="email-vector">
+                        <a href="mailto:info-example@mail.ru" id="email">info-example@mail.ru</a>
+                    </div>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#about-us" data-url-change="about-us" class="nav-item-link">О НАС</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-item-link" data-url-change="/services">УСЛУГИ</a></li>
+                        <li class="nav-item"><a href="#achievements" class="nav-item-link" data-url-change="/achievements">СЕРТИФИКАТЫ</a></li>
+                        <li class="nav-item"><a href="#reviews" class="nav-item-link" data-url-change="/reviews">ОТЗЫВЫ</a></li>
+                        <li class="nav-item"><a href="#announcements" class="nav-item-link" data-url-change="/announcements">ОБЪЯВЛЕНИЯ</a></li>
+                        <li class="nav-item"><a href="#address" class="nav-item-link" data-url-change="/contacts">КОНТАКТЫ</a></li>
+                    </ul>
+                    <div class="burger-menu">
+                        <div class="burger-menu-structure">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-call">
+                    <div class="call-nav">
+                        <div class="phone-icon">
+                            <img src="./imgs/icons/phone.svg" alt="">
+                        </div>
+                        <a href="tel:+77777777777" class="phone-number" id="phone">+7 (777) 777‒77‒77</a>
+                    </div>
+                    <button type="button" class="call-btn">Заказать звонок</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
 
-    </header>
-
-    <main class="main" id="main">
+<main class="main" id="main">
 
         <section class="intro" id="intro">
 
