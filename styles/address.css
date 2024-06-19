@@ -11,6 +11,12 @@ section.address {
     font-size: 32px;
 }
 
+.address-info-block, .phone-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
 .contacts {
     display: flex;
     flex-direction: column;
@@ -24,7 +30,7 @@ section.address {
 
 .address-info, .phone-info, .email-info {
     display: flex;
-    column-gap: 5px;
+    column-gap: 10px;
 }
 
 .address-text, .phone-text, .email-text {
@@ -34,6 +40,14 @@ section.address {
 .address-address, .address-phone, .address-email {
     padding-top: 10px;
     font-size: 16px;
+}
+
+.address-phone, .address-email {
+    transition: .2s linear;
+}
+
+.address-phone:hover, .address-email:hover {
+    color: #EF7F1A;
 }
 
 .address-hr {

@@ -22,6 +22,12 @@ section.services {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+
+    transition: .2s linear;
+}
+
+.card-row-1 {
+    cursor: pointer;
 }
 
 .card-row-1 {

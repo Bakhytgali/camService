@@ -93,6 +93,14 @@ a.nav-item-link:hover {
     color: #EF7F1A;
 }
 
+#email, #phone {
+    transition: .2s linear;
+}
+
+#email:hover, #phone:hover {
+    color: #EF7F1A;
+}
+
 nav.mobile-menu {
     display: none;
     position: fixed;
