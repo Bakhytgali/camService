@@ -7,6 +7,12 @@ section.reviews {
     text-align: center;
 }
 
+.reviews-swiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .reviews-subtitle {
     text-align: center;
     font-size: 18px;
@@ -15,13 +21,22 @@ section.reviews {
     padding-top: 20px;
 }
 
-.reviews-list {
-    padding-top: 40px;
+.review-card {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+
+    background-color: #F5F5F5;
+
+    padding: 20px;
+}
+
+.reviews-cards {
+    display: flex;
     justify-content: space-between;
-    column-gap: 40px;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
 }
 
 .review-item {
@@ -31,7 +46,7 @@ section.reviews {
     border-radius: 10px;
     box-sizing: border-box;
     margin-top: 30px;
-    width: calc(33.333% - 40px); /* Adjust width for three columns */
+    width: calc(33.333% - 40px);
 }
 
 .review-comma {
@@ -64,4 +79,3 @@ section.reviews {
     color: #444444;
     padding-bottom: 30px;
 }
-

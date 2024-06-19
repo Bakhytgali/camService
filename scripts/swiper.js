@@ -3,6 +3,7 @@ const swiper = new Swiper('.works-swiper', {
     loop: true,
     pagination: {
         el: '.works-swiper-pagination',
+        clickable: true
     },
 
     navigation: {

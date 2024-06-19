@@ -2,7 +2,8 @@ const achievementsSwiper = new Swiper('.achievements-swiper', {
     direction: 'horizontal',
     loop: true,
     pagination: {
-        el: '.achievement-swiper-pagination'
+        el: '.achievement-swiper-pagination',
+        clickable: true
     },
     navigation: {
         nextEl: '.achievement-swiper-button-next',
