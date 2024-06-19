@@ -1,16 +1,24 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const announcementsSwiper = new Swiper('.announcements-swiper', {
-        direction: 'horizontal',
-        loop: true,
-        pagination: {
-            el: '.announcements-swiper-pagination',
-            clickable: true
+const announcement = new Swiper('.announcements-swiper', {
+    direction: 'horizontal',
+    loop: true,
+    pagination: {
+        el: '.announcements-swiper-pagination',
+        clickable: true
+    },
+    navigation: {
+        nextEl: '.announcement-swiper-button-next',
+        prevEl: '.announcement-swiper-button-prev',
+    },
+    slidesPerView: 4,
+    breakpoints: {
+        1024: {
+            slidesPerView: 3
         },
-        navigation: {
-            nextEl: '.announcements-swiper-button-next',
-            prevEl: '.announcements-swiper-button-prev',
+        760: {
+            slidesPerView: 2
         },
-        slidesPerView: 4
-    });
-
+        480: {
+            slidesPerView: 1
+        }
+    }
 });
